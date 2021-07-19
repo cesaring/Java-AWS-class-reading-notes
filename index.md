@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+**READING NOTES:**
 
-You can use the [editor on GitHub](https://github.com/cesaring/Java-AWS-class-reading-notes/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+**Language Basics:** 
+From : *https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html*
+Variables (sometimes AKA as "fields")
+    Instance Variables: Declared without "static" keyword.
+    Class Variables:    Declared with "static" one variable shared by all instances of the class.
+    Local Variables:    Temporary, only visible within the scope at which they are created.
+    Parameters:         Declared variables as part of the function signature.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Operators
+    Special symbols that perform operations on 1, 2, or thee operands and return a result (ex: +,-,=, &&, ||,  etc.)
 
-### Markdown
+Expressions, Statements and Blocks
+    Expressions are a set of operations, that result in one result value
+    Statements are a complete statement/ "command": " x = e * f " for instance.
+    Blocks are a set of one or more statements, usually in { } block braces
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+**Navigating the Java API**
+FROM:*https://www.dummies.com/programming/java/making-sense-of-javas-api-documentation/*
+    Use search terms to find functions, and their specific types
+    Use the class library to find applicable classes, types and their methods.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cesaring/Java-AWS-class-reading-notes/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+**Compiling:** 
+From: *https://www.reddit.com/r/explainlikeimfive/comments/233dq5/eli5_what_does_it_mean_to_compile_code/*
+    Compiling a process via some program, to convert Java (English-like) code to Machine Language (0's,1's).
