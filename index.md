@@ -22,9 +22,11 @@ Expressions, Statements and Blocks
 
 **Navigating the Java API**
 FROM:*https://www.dummies.com/programming/java/making-sense-of-javas-api-documentation/*
+
     Use search terms to find functions, and their specific types
     Use the class library to find applicable classes, types and their methods.
 
 **Compiling:** 
 From: *https://www.reddit.com/r/explainlikeimfive/comments/233dq5/eli5_what_does_it_mean_to_compile_code/*
+
     Compiling a process via some program, to convert Java (English-like) code to Machine Language (0's,1's).
