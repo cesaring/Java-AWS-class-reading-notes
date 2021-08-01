@@ -21,6 +21,13 @@ Answers:
 8. package
 9. Application Programming Interface
 
+
+**Exercises**
+
+Create new classes for each real-world object that you observed at the beginning of this trail. Refer to the Bicycle class if you forget the required syntax.
+For each new class that you've created above, create an interface that defines its behavior, then require your class to implement it. Omit one or two methods and try compiling. What does the error look like?
+
+
 package com.company;
 public interface Container {
 
