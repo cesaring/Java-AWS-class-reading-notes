@@ -21,4 +21,57 @@ Answers:
 8. package
 9. Application Programming Interface
 
+package com.company;
+public interface Container {
+
+    public void addItem(int amountInML);
+    public void removeItem(int amountInML);
+
+    public int getCurrentMlInContainer();
+
+    public int getMaxMlContainerCanHold();
+}
+
+package com.company;
+
+public class LiquidBottle implements Container {
+    int maxMl;
+    int currMl;
+
+    public LiquidBottle(int MaxVolume){
+        maxMl = MaxVolume;
+        currMl=0;
+    }
+
+    @Override
+    public void addItem(int amount){
+        this.currMl= this.currMl+amount;
+    }
+
+    @Override
+    public void removeItem(int amountInML) {
+         this.currMl = this.currMl-amountInML;
+    }
+
+    @Override
+    public int getCurrentMlInContainer() {
+
+        return currMl;
+    }
+
+    @Override
+    public int getMaxMlContainerCanHold() {
+        return maxMl;
+    }
+}
+
+package com.company;
+
+public class TwoLiterBottle extends LiquidBottle {
+
+    public TwoLiterBottle(int MaxVolume) {
+        super(2000);
+    }
+}
+
 
